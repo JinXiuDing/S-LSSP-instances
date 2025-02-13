@@ -1,0 +1,60 @@
+*****************N11 GUROBI BENDERS RESULTs  *****************
+Job sequence:1, 3, 3, 3, 1, 1, 5, 5, 5, 4, 4, 4, 2, 2, 2,Number of subslots:1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+
+**************N11 BB RESULTs  **************
+Job sequence:1,3,1,3,3,1,4,2,4,4,2,2,5,5,5,Number of subslots:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+
+*****************N12 GUROBI BENDERS RESULTs  *****************
+Job sequence:2, 5, 2, 2, 5, 5, 3, 3, 3, 4, 4, 4, 1, 1, 1,Number of subslots:1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+
+**************N12 BB RESULTs  **************
+
+Job sequence:1,1,1,4,4,2,2,2,3,3,3,5,5,5,Number of subslots:1,1,1,2,1,1,1,1,1,1,1,1,1,1,
+
+*****************N13 GUROBI BENDERS RESULTs  *****************
+Job sequence:3, 3, 3, 4, 5, 2, 2, 1, 1, 1, 5, 5,   Number of subslots:1, 1, 1, 3, 1, 2, 1, 1, 1, 1, 1, 1,   
+
+**************N13 BB RESULTs  **************
+Job sequence:3,3,3,2,2,4,4,4,1,1,1,5,5,5,Number of subslots:1,1,1,2,1,1,1,1,1,1,1,1,1,1,
+
+*****************N14 GUROBI BENDERS RESULTs  *****************
+Job sequence:2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 1, 1, 1, Number of subslots:1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+
+**************N14 BB RESULTs  **************
+Job sequence:2,2,2,3,3,3,4,4,4,1,1,1,5,5,5,Number of subslots:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+
+*****************N15 GUROBI BENDERS RESULTs  *****************
+Job sequence:5, 1, 2, 2, 2, 5, 5, 1, 1, 4, 4, 3, 3, 3, Number of subslots:1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 
+**************N15 BB RESULTs  **************
+Job sequence:5,1,2,2,2,5,5,1,4,4,3,3,3,Number of subslots:1,1,1,1,1,1,1,2,1,2,1,1,1,
+
+*****************N16 GUROBI BENDERS RESULTs  *****************
+Job sequence:1, 2, 2, 1, 3, 1, 2, 3, 3, 5, 5, 5, 4, 4, 4,
+Number of subslots:1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+
+**************N16 BB RESULTs  **************
+Job sequence:2,2,1,2,3,1,3,1,3,5,5,5,4,4,4,Number of subslots:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+
+*****************N17 GUROBI BENDERS RESULTs  *****************
+Job sequence:1, 2, 1, 2, 1, 2, 3, 3, 4, 5, 4, 5, 4, 5, Number of subslots:1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 
+
+**************N17 BB RESULTs  **************
+Job sequence:1,2,1,2,1,2,3,3,4,4,4,5,5,5,Number of subslots:1,1,1,1,1,1,2,1,1,1,1,1,1,1,
+
+*****************N18 GUROBI BENDERS RESULTs  *****************
+Job sequence:3, 4, 3, 4, 3, 4, 5, 5, 2, 2, 2, 1, 1, 1, Number of subslots:1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 
+
+**************N18 BB RESULTs  **************
+Job sequence:3,3,4,3,4,5,5,2,2,2,1,1,1,Number of subslots:1,1,1,1,2,2,1,1,1,1,1,1,1,
+
+*****************N19 GUROBI BENDERS RESULTs  *****************
+Job sequence:1, 2, 3, 1, 2, 3, 1, 2, 3, 5, 5, 5, 4, 4, Number of subslots:1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 
+
+**************N19 BB RESULTs  **************
+Job sequence:1,2,3,1,2,3,1,2,3,5,5,5,4,4,4,Number of subslots:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+
+*****************N20 GUROBI BENDERS RESULTs  *****************
+Job sequence:4, 3, 3, 5, 5, 1, 1, 1, 2, 2,     Number of subslots:3, 2, 1, 1, 2, 1, 1, 1, 1, 2,     
+
+**************N20 BB RESULTs  **************
+Job sequence:4,3,4,3,3,2,2,2,5,5,1,1,1,Number of subslots:2,1,1,1,1,1,1,1,1,2,1,1,1,

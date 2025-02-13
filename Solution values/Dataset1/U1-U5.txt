@@ -1,0 +1,29 @@
+**************U-1 Stochastic LSSP**************
+Job sequence:4,7,4,7,2,2,3,3,1,5,6,Number of sublots:1,1,2,2,2,1,2,1,3,3,3,
+
+**************U-2 Stochastic LSSP  **************
+Job sequence:3,2,3,7,7,7,2,2,5,4,5,6,1,1,Number of sublots:1,1,2,1,1,1,1,1,1,3,2,3,1,2,
+
+**************U-3 Stochastic LSSP **************
+Job sequence:5,5,5,3,4,3,1,2,2,6,6,7,Number of sublots:1,1,1,1,3,2,3,2,1,2,1,3,
+
+**************U-4 Stochastic LSSP **************
+Job sequence:1,2,1,2,1,2,7,7,7,5,3,3,5,5,6,4,4,4,Number of sublots:1,1,1,1,1,1,1,1,1,1,2,1,1,1,3,1,1,1,
+
+**************U-5 Stochastic LSSP **************
+Job sequence:2,4,4,2,2,3,5,5,3,6,6,7,7,7,1,1,1,Number of sublots:1,2,1,1,1,1,1,2,2,1,2,1,1,1,1,1,1,
+
+*************U-1 Deterministic LSSP  **************
+Job sequence:4,7,4,7,2,2,5,1,3,3,6,5,1,6,Number of sublots:1,1,2,2,2,1,2,2,2,1,1,1,1,2,
+
+**************U-2 Deterministic LSSP  **************
+Job sequence:3,2,3,7,7,7,2,2,5,6,1,4,4,1,5,Number of sublots:1,1,2,1,1,1,1,1,2,3,2,2,1,1,1,
+
+**************U-3 Deterministic LSSP **************
+Job sequence:5,5,3,5,3,3,4,1,2,6,6,6,7,7,7,Number of sublots:1,1,1,1,1,1,3,3,3,1,1,1,1,1,1,
+
+**************U-4 Deterministic LSSP **************
+Job sequence:1,1,2,1,2,2,7,7,7,3,3,5,5,5,6,4,6,6,4,Number of sublots:1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,
+
+**************U-5 Deterministic LSSP **************
+Job sequence:4,4,4,2,2,2,5,5,5,6,3,3,6,7,7,1,7,1,1,Number of sublots:1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,
