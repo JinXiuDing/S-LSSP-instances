@@ -1,66 +1,63 @@
-# Flowshop Scheduling Instances Documentation
+# Dataset Introduction
 
-## Overview
-This repository contains computational instances adapted from Ruiz and Stützle's work for the basic flowshop scheduling problem. Modifications have been made to align with our research requirements, specifically:
-- **Due dates** adjusted for different distribution types.
-- **Setup times** between identical jobs redefined.
+## 1. Source and Modification of Computational Instances
+In our study, we employed computational instances based on those developed by Ruiz and St ̈utzle, which are designed for the basic flowshop scheduling problem. To align these instances with the specific requisites of our research, modifications are made to the due dates and the setup times between identical jobs.
 
----
+## 2. Generation of Processing Times
+The processing times were generated from a uniform distribution in the range of [1,99].
 
-## Instance Generation
+## 3. Classification of Instances Based on Setup - Time to Processing - Time Ratio
+The instances were classified into four categories based on the ratio of set - up time to processing time, namely SDST10, SDST50, SDST100, and SDST125.
+- **Major Setup Times**:
+    - For SDST10, major setup times were randomly generated from a uniform distribution spanning [1,9].
+    - For SDST50, major setup times were randomly generated from a uniform distribution spanning [1,49].
+    - For SDST100, major setup times were randomly generated from a uniform distribution spanning [1,99].
+    - For SDST125, major setup times were randomly generated from a uniform distribution spanning [1,124].
+- **Minor Setup Times**:
+    - For SDST10, minor setup times were randomly generated from a uniform distribution spanning [1,5].
+    - For SDST50, minor setup times were randomly generated from a uniform distribution spanning [1,25].
+    - For SDST100, minor setup times were randomly generated from a uniform distribution spanning [1,50].
+    - For SDST125, minor setup times were randomly generated from a uniform distribution spanning [1,75].
 
-### Processing Times
-- Generated from a uniform distribution in the range **[1, 99]**.
+## 4. Due Date Distributions
+In terms of due dates, the instances are characterized by diverse distribution types, each denoted by a specific letter:
+- U for a uniform distribution.
+- E for an exponential distribution.
+- N for a normal distribution.
 
-### Setup Times
-Instances are categorized into four groups based on setup-to-processing time ratios:
+## 5. Datasets Organization
+Our instances can be organized into six datasets:
 
-| Category  | Major Setup Time Range | Minor Setup Time Range |
-|-----------|------------------------|------------------------|
-| SDST10    | [1, 9]                 | [1, 5]                 |
-| SDST50    | [1, 49]                | [1, 25]                |
-| SDST100   | [1, 99]                | [1, 50]                |
-| SDST125   | [1, 124]               | [1, 75]                |
+### Dataset 1
+- **Number of Instances**: 15 instances.
+- **Due Date Distribution**: 5 instances for each due date distribution.
+- **Configuration**: Each instance consists of 7 jobs and 5 machines, and the production lot of each job can be divided into no more than 3 sublots (denoted as 7 - 3 - 5).
+- **Purpose**: Utilized for exploring the value of stochastic information.
 
-### Due Date Distributions
-Due dates follow three distribution types:
-- **U (Uniform)**: Defined by `[left_bound, right_bound]`
-- **E (Exponential)**: Defined by `mean`
-- **N (Normal)**: Defined by `mean` and `standard_deviation`
+### Dataset 2
+- **Number of Instances**: 60 instances.
+- **Configuration**: 7 - 3 - 5.
+- **Due Date Distribution**: 20 instances in each distribution.
+- **Purpose**: Utilized for sensitivity analysis.
 
----
+### Datasets 3 - 6
+- **Number of Instances per Dataset**: 30 instances.
+- **Due Date Distribution**: 10 instances for each due date distribution.
+- **Configurations**:
+    - Dataset 3: 5 - 3 - 5.
+    - Dataset 4: 7 - 3 - 5.
+    - Dataset 5: 10 - 3 - 5.
+    - Dataset 6: 12 - 3 - 8.
+- **Purpose**: Employed to validate the efficiency of the proposed algorithms.
 
-## Datasets
-Six datasets are provided for different research purposes:
+## 6. Instance Structure
+The instances are structured to sequentially present the processing times, followed by the setup times, and ultimately data related to due date distribution.
 
-### 1. Dataset 1: Stochastic Information Exploration
-- **Size**: 15 instances (5 per distribution)
-- **Configuration**: 7 jobs, 3 sublots, 5 machines (`7-3-5`)
+### Due Date Distribution Details
+- **Normal distribution**: mean, standard deviation.
+- **Exponential distribution**: mean.
+- **Uniform distribution**: left_bound right_bound.
 
-### 2. Dataset 2: Sensitivity Analysis
-- **Size**: 60 instances (20 per distribution)
-- **Configuration**: `7-3-5`
-
-### 3. Validation Datasets (Algorithm Efficiency)
-Four datasets with **30 instances each** (10 per distribution):
-
-| Dataset   | Configuration |
-|-----------|---------------|
-| Dataset 3 | 5-3-5         |
-| Dataset 4 | 7-3-5         |
-| Dataset 5 | 10-3-5        |
-| Dataset 6 | 12-3-8        |
-
----
-
-## Data Structure
-Instance files are organized sequentially as:
-1. **Processing Times**
-2. **Setup Times**
-3. **Due Date Parameters** (specific to distribution type)
-
----
-
-## Solution Values
-- **Solution Values Folder**: Contains optimal/reference values for all instances.
-- **Numerical Results**: Full experimental results are provided in `numerical_result.xlsx`.
+## 7. Solution Information
+- You can view the solution values for each dataset in the `Solution values` folder.
+- You can view the solution results in the `numerical result.xlsx` file.
