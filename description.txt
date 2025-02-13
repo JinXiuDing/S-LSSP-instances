@@ -1,0 +1,35 @@
+In our study, we employed computational instances based on those developed by Ruiz and St ̈utzle, which
+are designed for the basic flowshop scheduling problem. To align these instances with the specific
+requisites of our research, modifications are made to the due dates and the setup times between
+identical jobs
+
+The processing times were generated from a uniform distribution in the range of [1,99]. The instances were
+classified into four categories based on the ratio of set-up time to processing time, namely SDST10, SDST50, 
+SDST100, and SDST125. The major setup times for these categories were randomly generated from uniform 
+distributions spanning [1,9], [1,49], [1,99], and [1,124], respectively. The minor setup times for these categories
+were randomly generated from uniform distributions spanning [1,5], [1,25], [1,50], and [1,75], respectively.
+
+In terms of due dates, the instances are characterized by diverse distribution types, each denoted by a specific 
+letter: U for a uniform distribution, E for an exponential distribution, and N for a normal distribution. 
+
+Our instances can be organized into six datasets.
+
+The first dataset consists of 15 instances, with 5 instances for each due date distribution. 
+Each instance consists of 7 jobs and 5 machines, and the production lot of each job can be divided into no more than 3 sublots. 
+This configuration is denoted as 7-3-5. The first dataset is utilized for exploring the value of stochastic information. 
+The second dataset includes 60 instances with a configuration of 7-3-5. There are 20 instances in each distribution. 
+It is utilized for sensitivity analysis.
+Subsequently, the next four datasets are employed to validate the efficiency of the proposed algorithms.
+Each dataset includes 30 instances, with 10 instances for each due date distribution. 
+Their configurations are 5-3-5, 7-3-5, 10-3-5, and 12-3-8, respectively.
+
+The instances are structured to sequentially present the processing times, followed by the setup times, 
+and ultimately data related to due date distribution.
+
+due dates:
+normal distribution : mean, standard deviation
+exponential distribution : mean
+uniform distribution :left_bound right_bound
+
+
+You can view the solution values for each dataset in the "Solution values" folder, and view the solution results in the "numerical result.xlsx" file
